@@ -1,0 +1,24 @@
+nav img{
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+ul{
+    list-style-type: none;
+    li{
+        display: inline-block;
+        margin: 10px;
+        
+        
+        Link{
+            text-decoration: none;
+        }
+    }
+ }
+
+ li>Link{
+    text-decoration: none;
+ }
+ 

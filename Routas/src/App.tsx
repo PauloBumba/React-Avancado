@@ -15,13 +15,13 @@ function App() {
         
         
           <Router>
-          <nav className="nav nav-pills " >
+            <nav className="nav nav-pills " >
             <li className=" nav nav-pills nav-justified nav-fill ">
               <Link to="/" className=" nav-link">Home</Link>
               <Link to="/login" className=" nav-link">Login</Link>
               <Link to="/cadastro"className=" nav-link" >Cadastro</Link>
             </li>
-        </nav>
+           </nav>
             <Routes>
               <Route path="/" element={<Home/>}/>
               <Route path="/login" element={<Login/>}/>

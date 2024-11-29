@@ -28,6 +28,7 @@ export const Effect: React.FC = () => {
 
   return (
     <div className="container-fluid">
+        
       {Progress ? (
         <div className="d-flex justify-content-center align-items-center min-vh-100 rounded shadow my-5">
           <div className="card">
