@@ -1,0 +1,29 @@
+.logo {
+    border-radius: 50%;
+    height: 80px;
+    color: white;
+    object-fit: cover;
+  }
+
+
+  html, body {
+    height: 100%; /* Garante que o body e html ocupem toda a tela */
+    margin: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Define o tamanho mínimo como o tamanho da tela */
+  }
+  
+  .sticky-footer {
+    flex-shrink: 0; /* Impede que o footer encolha */
+    position: sticky; /* Torna o footer fixo na parte inferior */
+    bottom: 0;
+  }
+  
+  .container-content {
+    flex: 1; /* Faz o conteúdo principal crescer e preencher o espaço restante */
+  }
+  
