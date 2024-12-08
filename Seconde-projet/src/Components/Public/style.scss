@@ -5,25 +5,41 @@
     object-fit: cover;
   }
 
+img{
+  height: 200px;
+  object-fit: cover;
 
-  html, body {
-    height: 100%; /* Garante que o body e html ocupem toda a tela */
-    margin: 0;
+}
+
+.transparent{
+  background-image: linear-gradient(to right , rgb(0, 85, 255), transparent);
+  color: black;
+  width: 100%;
+}
+.nav-link:hover{
+  background-color:  rgb(0, 85, 255);
+  border-radius: 10px;
+  transform-origin: 1s;
+}footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .main-sidebar {
+    display: none;
   }
   
-  #root {
+  .navbar-nav {
     display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Define o tamanho mínimo como o tamanho da tela */
+    flex-direction: row;
   }
   
-  .sticky-footer {
-    flex-shrink: 0; /* Impede que o footer encolha */
-    position: sticky; /* Torna o footer fixo na parte inferior */
-    bottom: 0;
+  .navbar-nav .nav-item {
+    padding: 0 10px;
   }
   
-  .container-content {
-    flex: 1; /* Faz o conteúdo principal crescer e preencher o espaço restante */
+  .menu-toggle {
+    display: block;
   }
-  
+}

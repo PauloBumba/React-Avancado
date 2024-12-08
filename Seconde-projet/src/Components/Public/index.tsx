@@ -8,7 +8,7 @@ export const Comun : React.FC = ()=>{
     return(
         <div className="">
             <Nav/>
-            <main className=" ">
+            <main >
                 <Outlet/>
             </main>
             <div className=""><Footer/></div>

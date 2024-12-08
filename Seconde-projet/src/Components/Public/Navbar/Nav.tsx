@@ -21,25 +21,34 @@ export const Nav: React.FC = () => {
           </button>
           <div className="collapse navbar-collapse " id="navbarNavDropdown">
             <ul className="navbar-nav me-auto mt-3 text-white mx-md-auto">
-              <li className="nav-item">
-                <Link className="nav-link active  w-100  text-white active" to="/">
+              <li className="nav-item nav">
+                <Link className="nav-link nav-fill  w-100  text-white " to="/">
                  Home
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link  w-100  text-white " to="/login">
-                  Login
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link  w-100   text-white " to="/cadastro">
-                  Cadastro
-                </Link>
-              </li>
-             
+              <Link className="nav-link w-100 text-white" to="/#serv">
+  Serviços
+</Link>
+
+<li className="nav-item">
+  <Link className="nav-link w-100 text-white" to="/#aval" aria-label="Ir para a seção de Avaliação">
+    Avaliação
+  </Link>
+</li>
+
+<li className="nav-item">
+  <Link className="nav-link w-100 text-white" to="/cadastro" aria-label="Ir para a seção de Avaliação">
+    Cadastro
+  </Link>
+</li>
+
         
             </ul>
-            <button className=" border rounded mt-2 p-2 ">Login</button>
+           
+            <Link className="text-decoration-none btn btn-light col-12 col-md-1 " to="/login">
+                  Login
+                </Link>
+           
           </div>
       </div>
       </nav>
