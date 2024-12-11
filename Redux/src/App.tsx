@@ -1,3 +1,5 @@
+import { Card } from "./Components/Cards"
+import { Footer } from "./Components/Footer"
 import { Navbar } from "./Components/NavBar/navbar"
 
 function App() {
@@ -6,7 +8,9 @@ function App() {
     <>
     <div>
       <Navbar/>
-          </div>
+      <Card/>
+      <Footer/>      
+      </div>
    
     </>
   )
