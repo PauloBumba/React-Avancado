@@ -1,0 +1,21 @@
+/* Tema claro */
+.light-theme {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+.light-card {
+  background-color: white;
+  color: black;
+}
+
+/* Tema escuro */
+.dark-theme {
+  background-color: #343a40;
+  color: white;
+}
+
+.dark-card {
+  background-color: #495057;
+  color: white;
+}
