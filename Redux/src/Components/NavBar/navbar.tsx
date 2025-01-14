@@ -14,7 +14,7 @@ export const Navbar: React.FC = () => {
         Login({
         name:""
 ,
-email:""         
+email:"paulomvbumba@gmail.com"         
         })
       );
     } else {

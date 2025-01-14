@@ -1,48 +1,116 @@
-import { ScrollRevealcomponents } from "./Components/Scrollrevealcomponents"
-
-
-
-
-function App() {
-  
-
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
+const App = () => {
+  useEffect(() => {
+    // Aplicando o ScrollReveal no card
+    ScrollReveal().reveal('.card', {
+      distance: '50px',
+      duration: 1000,
+      origin:"lleft",
+      delay: 200,
+      reset: true, // Repetir a animação sempre que o elemento voltar à tela
+    });
+  }, []);
   return (
-    <>
-     <div>
-      <ScrollRevealcomponents options={{duration:1000, distance:"10%", origin:'top'}
-        
-      }>
-        <div className="card border mx-2 my-5">
-          <div className="card-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officia blanditiis architecto eaque iure repellendus quae minima. In possimus earum, repellendus exercitationem asperiores recusandae nisi vitae rem quam ipsa tenetur omnis, veritatis facilis necessitatibus blanditiis id! Veritatis deleniti, eaque numquam voluptates itaque dolores neque in dignissimos officia, reiciendis eveniet cumque? Numquam dolor quasi quisquam amet non officia debitis, quos ab minima officiis nobis odio dignissimos aperiam quae commodi fugiat sunt! Cupiditate maiores consequuntur, suscipit fuga ex laborum. Architecto harum quam quaerat odio modi libero quos error magnam expedita, facere hic esse dolore assumenda earum exercitationem cupiditate commodi porro doloremque velit?
+    <div className="container mt-5">
+      <div className="row ">
+        <div className="col-md-6">
+          {/* Card do Bootstrap com ScrollReveal */}
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
+          </div>
+          <div className="card shadow-sm p-4" >
+            <h5 className="card-title text-center">Olá, Mundo!</h5>
+            <p className="card-text text-center">
+              Este é um exemplo de animação com ScrollReveal em um card utilizando o Bootstrap.
+            </p>
           </div>
         </div>
-      </ScrollRevealcomponents>
-     </div>
-     <div>
-      <ScrollRevealcomponents options={{duration:1000, distance:"10%", origin:'top'}
-        
-      }>
-        <div className="card border mx-2 my-5">
-          <div className="card-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officia blanditiis architecto eaque iure repellendus quae minima. In possimus earum, repellendus exercitationem asperiores recusandae nisi vitae rem quam ipsa tenetur omnis, veritatis facilis necessitatibus blanditiis id! Veritatis deleniti, eaque numquam voluptates itaque dolores neque in dignissimos officia, reiciendis eveniet cumque? Numquam dolor quasi quisquam amet non officia debitis, quos ab minima officiis nobis odio dignissimos aperiam quae commodi fugiat sunt! Cupiditate maiores consequuntur, suscipit fuga ex laborum. Architecto harum quam quaerat odio modi libero quos error magnam expedita, facere hic esse dolore assumenda earum exercitationem cupiditate commodi porro doloremque velit?
-          </div>
-        </div>
-      </ScrollRevealcomponents>
-     </div>
-     <div>
-      <ScrollRevealcomponents options={{duration:1000, distance:"10%", origin:'top'}
-        
-      }>
-        <div className="card border mx-2 my-5">
-          <div className="card-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officia blanditiis architecto eaque iure repellendus quae minima. In possimus earum, repellendus exercitationem asperiores recusandae nisi vitae rem quam ipsa tenetur omnis, veritatis facilis necessitatibus blanditiis id! Veritatis deleniti, eaque numquam voluptates itaque dolores neque in dignissimos officia, reiciendis eveniet cumque? Numquam dolor quasi quisquam amet non officia debitis, quos ab minima officiis nobis odio dignissimos aperiam quae commodi fugiat sunt! Cupiditate maiores consequuntur, suscipit fuga ex laborum. Architecto harum quam quaerat odio modi libero quos error magnam expedita, facere hic esse dolore assumenda earum exercitationem cupiditate commodi porro doloremque velit?
-          </div>
-        </div>
-      </ScrollRevealcomponents>
-     </div>
-    </>
-  )
-}
+      </div>
+    </div>
+  );
+};
 
-export default App
+
+export default App;
